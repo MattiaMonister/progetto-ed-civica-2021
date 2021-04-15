@@ -187,18 +187,14 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-<<<<<<< HEAD
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
 }
-=======
->>>>>>> a1ef4a3865c3d13cbd0e4147a3c228411baf4d07
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
 }
-<<<<<<< HEAD
 img.mg-sm,img.mg-md,img.mg-lg{
 	margin-top: 0;
 }
@@ -211,8 +207,6 @@ img.mg-md{
 img.mg-lg{
 	margin-bottom:50px;
 }
-=======
->>>>>>> a1ef4a3865c3d13cbd0e4147a3c228411baf4d07
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -227,7 +221,6 @@ button{
 	outline: none!important;
 }
 
-<<<<<<< HEAD
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -235,30 +228,6 @@ button{
 	font-size:60px!important;
 }
 
-=======
-.a-block{
-	width:100%;
-	text-align:left;
-	display: inline-block;
-}
-.text-center .a-block{
-	text-align:center;
-}
-
-/* = Icons
--------------------------------------------------------------- */
-.icon-md{
-	font-size:30px!important;
-}
-
-/*  Rounded Image */
-.img-rd-md{
-	border-radius:20px;
-}
-.img-rd-lg{
-	border-radius:34px;
-}
->>>>>>> a1ef4a3865c3d13cbd0e4147a3c228411baf4d07
 
 
 
@@ -275,7 +244,6 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-<<<<<<< HEAD
 /* = Dividers
 -------------------------------------------------------------- */
 .divider-h{
@@ -294,8 +262,6 @@ button{
 .dropdown-menu .divider-h,.dropdown-menu .divider-half{
 	padding:0;
 }
-=======
->>>>>>> a1ef4a3865c3d13cbd0e4147a3c228411baf4d07
 
 
 
@@ -345,14 +311,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h1-style{
 	font-size:44px;
-<<<<<<< HEAD
 	width:100%;
 }
 .divider-padding{
 	padding-top:22px;
 	padding-bottom:22px;
-=======
->>>>>>> a1ef4a3865c3d13cbd0e4147a3c228411baf4d07
 }
 
 /* = Colour
@@ -360,17 +323,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
-<<<<<<< HEAD
 .bgc-isabelline{
 	background-color:#ECEBEC;
 }
-=======
->>>>>>> a1ef4a3865c3d13cbd0e4147a3c228411baf4d07
 .bgc-black{
 	background-color:#000000;
 }
 
-<<<<<<< HEAD
 /* Text colour styles */
 
 .tc-dim-gray{
@@ -384,8 +343,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-color:#6D6E6E!important;
 }
 
-=======
->>>>>>> a1ef4a3865c3d13cbd0e4147a3c228411baf4d07
 
 
 
