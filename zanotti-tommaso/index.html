@@ -10,6 +10,36 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <style>
+        #myBtn {
+            box-sizing: border-box;
+            text-decoration: none;
+            outline: none !important;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            user-select: none;
+            border: 1px solid transparent;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+            color: #FFF;
+            background: rgba(0, 0, 0, .3);
+            width: 36px;
+            height: 36px;
+            padding: 5px;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 999;
+            transition: all .3s ease-in-out;
+            opacity: 1;
+            pointer-events: all;
+            font-family: "Helvetica";
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
@@ -135,6 +165,10 @@
             </div>
         </div>
     </footer>
+    <button class="bloc-button btn btn-d scrollToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        id="myBtn"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32">
+            <path style="fill: none;stroke: #fff;stroke-width: 2px;fill-rule: evenodd;stroke-linecap: round;" d="M30,22.656l-14-13-14,13" />
+        </svg></button>
     <!-- Scripts -->
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/skel.min.js"></script>
@@ -144,6 +178,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script>
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>
